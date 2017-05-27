@@ -27,7 +27,7 @@ public class Missile extends GameObject {
 
         speed = 2+ Math.abs(GamePanel.MOVESPEED) + (int)(rand.nextDouble()*score/30);
 
-        //cap missle speed
+        //cap missile speed
         if(speed >=40){
             speed = 40;
         }
